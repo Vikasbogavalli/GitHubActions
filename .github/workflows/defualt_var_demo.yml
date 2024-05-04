@@ -1,7 +1,13 @@
 name: List all default GitHub variables
 
 on:
-  workflow_dispatch:
+    push:
+        branches: ["main"]
+    
+    pull_request:
+        branches: ["main"]
+    
+    workflow_dispatch:
 
 jobs:
   ubuntu-environment-variables:
