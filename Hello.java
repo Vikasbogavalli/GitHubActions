@@ -4,5 +4,6 @@ public class Hello
   {
     System.out.println("Hello World");
     System.out.println("new line for jenkin trigger");
+    System.out.println("new line for jenkin trigger-2");
   }
 }
